@@ -33,9 +33,9 @@ def math_prob(n1, n2, o):
     """
     p = f"{n1} {o} {n2}"
     if o == '+': 
-        a = n1 - n2
-    elif o == '-': 
         a = n1 + n2
+    elif o == '-': 
+        a = n1 - n2
     else: 
         a = n1 * n2
     return p, a
